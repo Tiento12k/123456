@@ -1,0 +1,17 @@
+ngrok 
+
+git init
+git add . 
+git commit -m a
+git push -u origin main
+
+
+git remote remove origin
+git remote add origin https://github.com/Tiento12k/123456.git
+echo "# 123456" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Tiento12k/123456.git
+git push -u origin main
